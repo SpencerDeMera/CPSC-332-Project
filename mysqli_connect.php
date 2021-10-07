@@ -1,9 +1,9 @@
 <?php
 
-DEFINE ('DB_USER', 'root@');
-DEFINE ('DB_PASSWORD', 'Password');
-DEFINE ('DB_HOST', 'LAPTOP-2N6K0L6N');
-DEFINE ('DB_NAME', 'cs332c9');
+DEFINE ('DB_USER', '<assigned account username');
+DEFINE ('DB_PASSWORD', '<assigned account password>');
+DEFINE ('DB_HOST', '<host of DB>');
+DEFINE ('DB_NAME', '<assigned DB name>');
 
 $dbc = @mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME)
 OR die('ERROR: Could not connect to MySQL ' .
