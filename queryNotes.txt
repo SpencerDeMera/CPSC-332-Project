@@ -1,0 +1,38 @@
+Access page in browser: http://ecs.fullerton.edu/~cs332c9
+
+LINUX:
+- LOGIN: ssh <assigned account name>@shell.ecs.fullerton.edu -> Password
+- See current directory files: ls
+- Enter a directory: cd <filename>
+- Back out of a directory: cd ..
+- Create new file: touch <filename>
+- Make file readable by everyone: chmod 604 <filename>
+- Open in nano or vi editors: vi <filename> OR nano <filename>
+- Exit: exit
+
+MySQL:
+- LOGIN: mysql -h mariadb -u <assigned account name>-p -> Password
+- Access db: use <assigned account password>
+- Add MySQL or DDL: type into terminal
+- Run SQL from file in <assigned account name> Linux: source <filename>
+- Exit to <assigned account name> Linux: exit OR quit 
+
+=== Query Notes ===
+--- Professors ---
+Form 1:
+- Given Prof SSN -> Class Title, Classrooms of Classes, Meetings Days & Times of Classes
+- Tables needed -> professors (ssn verify), courses (class title), sections (classrooms & meetings)
+
+Form 2:
+- Given Course & Section Number -> # of Students With Each Distinct Grade
+- Tables needed -> enrollment_record (course & section verify, grades count)
+
+--- Students ---
+Form 1:
+- Given Course Number -> All Course Sections, Classrooms of Sections, Meeting Days & Times of Sections,
+    # of Students Enrolled in Each Section
+- Tables needed -> sections (section # verify, sections, classrooms, meetings), enrollment_record (# of students in each section) 
+
+Form 2:
+- Given CWID -> All Courses Taken by Student, Grade of Student in Each Class
+- Tables needed -> enrollment_record (cwid verify, courses students took, grades for each class)

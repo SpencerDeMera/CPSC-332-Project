@@ -1,0 +1,33 @@
+MySQL Base Commands: 
+- Start MySQL Root: mysql -u root
+- Show hostname: SELECT @@hostname;
+- Show user: SELECT user();
+- Show all databases: SHOW DATABASES;
+- Create new databases: CREATE DATABASE <database name>;
+- Delete a databases: DROP DATABASE <database name>;
+- Access db: use <database name>
+- Add MySQL or DDL: type into terminal
+- Run SQL from file in terminal: source <filename>
+- Exit to main terminal: exit OR quit
+
+Account: <assigned account name>
+Password: <assigned account password>
+
+Access page in browser: http://ecs.fullerton.edu/~cs332c9
+
+LINUX:
+- LOGIN: ssh <assigned account name>@shell.ecs.fullerton.edu -> Password
+- See current directory files: ls
+- Enter a directory: cd <filename>
+- Back out of a directory: cd ..
+- Create new file: touch <filename>
+- Make file readable by everyone: chmod 604 <filename>
+- Open in nano or vi editors: vi <filename> OR nano <filename>
+- Exit: exit
+
+MySQL:
+- LOGIN: mysql -h mariadb -u <assigned account name>-p -> Password
+- Access db: use <assigned account password>
+- Add MySQL or DDL: type into terminal
+- Run SQL from file in <assigned account name> Linux: source <filename>
+- Exit to <assigned account name> Linux: exit OR quit 
