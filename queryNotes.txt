@@ -1,4 +1,4 @@
-Access page in browser: http://ecs.fullerton.edu/~cs332c9
+Access page in browser: http://ecs.fullerton.edu/~<assigned account name>
 
 LINUX:
 - LOGIN: ssh <assigned account name>@shell.ecs.fullerton.edu -> Password
