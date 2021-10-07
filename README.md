@@ -1,5 +1,5 @@
 # Spencer's Repo for
-# CPSC 332 File Structure and Database Systems
+# CPSC 332 File Structure and Database Systems Project
 
 - - - -
 
